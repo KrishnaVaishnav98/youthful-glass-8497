@@ -28,9 +28,6 @@ function Navbar() {
                 />
             </Box>
 
-
-
-
             <Spacer />
 
             <Box>
