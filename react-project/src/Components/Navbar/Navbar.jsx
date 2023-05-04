@@ -1,23 +1,26 @@
 import { Flex, Spacer, Text, Box, Grid, HStack, Heading, Stack, Avatar, Icon, Image, Tooltip } from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Center } from '@chakra-ui/react'
+import NavDropdown from './NavDropdown'
+import NavMenu from './Menu'
 
 function Navbar() {
     return (<>
         <Flex>
 
             <Box>
-                <Image
+                {/* <Image
                     src={require('../../Images/menu.png')}
-                    alt="Skinnetic logo"
+                    alt="Menu"
                     m="10px"
                     boxSize="25px"
                     objectFit="contain"
-                />
+                /> */}
+                <NavMenu />
             </Box>
 
-
             <Spacer />
-            <Box>
+
+            <Box >
                 <Image
                     src={require('../../Images/Skinnetic.png')}
                     alt="Skinnetic logo"
@@ -30,9 +33,9 @@ function Navbar() {
 
             <Spacer />
 
-            <Box>
+            <Box >
                 <Flex>
-                    <Tooltip label='Log-in' fontSize='md'>
+                    <Tooltip label='Log-in' fontSize='md' >
                         <Image
                             m="10px"
                             boxSize="30px"
@@ -42,7 +45,7 @@ function Navbar() {
                         />
 
                     </Tooltip>
-                    <Tooltip label='cart' fontSize='md' >
+                    <Tooltip label='cart' fontSize='md'  >
                         <Image
                             m="10px"
                             boxSize="30px"
@@ -55,22 +58,7 @@ function Navbar() {
             </Box>
 
         </Flex>
-        <Center >
-            <Tabs size='md' variant='enclosed'>
-                <TabList>
-                    <Tab>One</Tab>
-                    <Tab>Two</Tab>
-                </TabList>
-                <TabPanels>
-                    <TabPanel>
-                        <p>one!</p>
-                    </TabPanel>
-                    <TabPanel>
-                        <p>two!</p>
-                    </TabPanel>
-                </TabPanels>
-            </Tabs>
-        </Center>
+        <NavDropdown />
     </>
     )
 }
