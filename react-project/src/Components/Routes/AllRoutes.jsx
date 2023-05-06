@@ -1,28 +1,21 @@
 import { Routes, Route } from "react-router-dom"
-import BestSellers from "../Pages/BestSellers"
-import Combo from "../Pages/Combo"
-import HandCream from "../Pages/HandCream"
-import HandSanitizer from "../Pages/HandSanitizer"
-import HandSoap from "../Pages/HandSoap"
-import OralCare from "../Pages/OralCare"
-import Refills from "../Pages/Refills"
-import SkinCare from "../Pages/SkinCare"
 
-// const AllRoutes = () => {
-//     return (
-//         <div>
-//             <Routes>
-//                 <Route path="/bestsellers" element={<BestSellers />} ></Route>
-//                 <Route path="/combo" element={<Combo />} ></Route>
-//                 <Route path="/handcream" element={<HandCream />} ></Route>
-//                 <Route path="/handsanitizer" element={<HandSanitizer />} ></Route>
-//                 <Route path="/handsoap" element={<HandSoap />} ></Route>
-//                 <Route path="/oralcare" element={<OralCare />} ></Route>
-//                 <Route path="/refills" element={<Refills />} ></Route>
-//                 <Route path="/skincare" element={<SkinCare />} ></Route>
-//             </Routes>
-//         </div>
-//     )
-// }
+import Navbar from "../Navbar/Navbar"
+import LogIn from "../Pages/LogIn"
+import Cart from "../Pages/Cart"
+import SingleProduct from "../Pages/SingleProduct"
+
+function AllRoutes() {
+    return (
+        <div>
+            <Routes>
+                <Route path="/" element={<Navbar />}></Route>
+                <Route path="/login" element={<LogIn />}></Route>
+                <Route path="/cart" element={<Cart />}></Route>
+                <Route path="/products/:id" element={<SingleProduct />}></Route>
+            </Routes>
+        </div>
+    )
+}
 
 export { AllRoutes }

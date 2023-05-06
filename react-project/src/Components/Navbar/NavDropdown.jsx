@@ -7,11 +7,11 @@ import HandSanitizer from "../Pages/HandSanitizer"
 import HandSoap from "../Pages/HandSoap"
 import OralCare from "../Pages/OralCare"
 import Refills from "../Pages/Refills"
-import SkinCare from "../Pages/SkinCare"
+import SkinCare from '../Pages/SkinCare';
 
 function NavDropdown() {
     return (
-        <Tabs size='md' variant='enclosed'>
+        <Tabs size='md' variant='enclosed' defaultIndex={0}>
             <TabList >
                 <Tab ml="180px" mr="20px">Best Sellers </Tab>
                 <Tab ml="20px" mr="20px">Hand Sanitizer</Tab>
