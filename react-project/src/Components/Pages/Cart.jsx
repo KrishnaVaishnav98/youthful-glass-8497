@@ -1,14 +1,12 @@
 
-// import Navbar from './Components/Navbar/Navbar';
-// import NavDropdown from "../Navbar/NavDropdown"
+import Logo from "../Navbar/Logo";
 
 function Cart() {
 
     return (<>
+        <Logo />
         Cart Page
-        {/* 
-        <Navbar />
-        <NavDropdown /> */}
+
     </>)
 }
 
