@@ -1,14 +1,13 @@
 
-// import Navbar from './Components/Navbar/Navbar';
-// import NavDropdown from "../Navbar/NavDropdown"
-
+import Logo from "../Navbar/Logo";
 function LogIn() {
 
     return (<>
-        Login Page
 
-        {/* <Navbar />
-        <NavDropdown /> */}
+        <Logo />
+
+        {/* Login Page */}
+
     </>)
 }
 

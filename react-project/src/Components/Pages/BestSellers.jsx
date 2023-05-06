@@ -75,7 +75,7 @@ function BestSellers() {
                                         <Text color='#263238' fontWeight="bold" fontSize='lg' fontFamily="arial" size='md'>{el.name}</Text>
 
                                         <Text color='#455A64' fontSize='xl'>
-                                            {el.price}
+                                            {el.price}€
                                         </Text>
                                     </Stack>
                                 </CardBody>
