@@ -3,7 +3,7 @@ import { Card, CardBody, Stack, CardFooter, Center } from '@chakra-ui/react'
 
 
 import Products from './Products';
-import ProductCard from './ProductCard';
+import ProductCard from './Search';
 import axios from "axios"
 import { useEffect, useState } from 'react';
 import Navbar from '../Navbar/Navbar';
@@ -28,7 +28,7 @@ function BestSellers() {
                 console.log(err)
             })
     }
-    console.log("====", data)
+
 
     useEffect(() => {
         Products()
@@ -37,8 +37,7 @@ function BestSellers() {
 
     return (
         <>
-            {/* <Navbar /> */}
-            {/* <Flex w="full" > */}
+
             <Box w="full" >
                 <Box borderRadius="10px" h="500px" backgroundImage="url('https://dy6g3i6a1660s.cloudfront.net/wMsXNGunCnVl6ICOTkCsgAeoBLA/orig.jpg')" backgroundPosition="center">
                     <Heading pr="40px" pt="30px" color="#FAFAFA" fontFamily="revert">Design meets Sustainability</Heading>
@@ -48,20 +47,12 @@ function BestSellers() {
                 </Box>
 
             </Box>
-            {/* <Box w="900px" h="500px" bg="#E8F5E9" borderRadius="10px">
-                    <Heading mt="150px" fontFamily="revert">Design meets Sustainability</Heading>
-                    <Text mt="30px" color="#546E7A">Refill and Reuse. Save up to 89% plastic by refilling your favorite products</Text>
-                    <Button mt="30px" colorScheme='teal' variant='outline'>
-                        Shop Now
-                    </Button>
-                </Box> */}
-            {/* </Flex > */}
+
             <Grid templateColumns='repeat(4, 1fr)' gap="50px">
 
                 {
                     data.map((el) => (
 
-                        // <ProductCard key={el.id} name={el.name} avatar={el.avatar} price={el.price} />
                         < Box key={el.id} >
                             <Card maxW='sm' mt="50px">
                                 <CardBody>

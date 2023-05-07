@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Card, CardHeader, Center, CardBody, CardFooter, Stack, Image, Heading, Box, Text, Button, Flex, Spacer } from '@chakra-ui/react'
@@ -13,16 +13,20 @@ import {
     useDisclosure
 } from '@chakra-ui/react'
 import Logo from "../Navbar/Logo";
+import { PageContext } from "../../Context/pageContext";
+import { useContext } from "react";
 
 
 function SingleProduct(props) {
 
     const { id } = useParams()
     const [data, setData] = useState([])
-
-
-    // console.log("data=========", howToUse)
-
+    // const [category, setCategory] = useState('Best Seller');
+    const navigate = useNavigate();
+    let category = useContext(PageContext)
+    console.log("////////////", category)
+    category = data.category
+    console.log("////////////2", category)
     function Products() {
         axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products/${id}`)
             .then((res) => {
@@ -103,17 +107,11 @@ function SingleProduct(props) {
                                 <Stack color={"#004D40"}  >
 
                                     <Box  >
-                                        {/* {data.howToUse && data.howToUse.split("\n").map((line, index) => (
-                                <Text key={index} py='2'>{line}</Text>
-                            ))} */}
                                         {BasicUsage("Ingredients", data.ingredients)}
                                     </Box>
                                     <Spacer />
                                     <Box >
                                         {BasicUsage("How To Use", data.howToUse)}
-                                        {/* {data.ingredients && data.ingredients.split("\n").map((line, index) => (
-                                <Text key={index} py='2'>{line}</Text>
-                            ))} */}
                                     </Box>
 
                                 </Stack>
@@ -124,7 +122,7 @@ function SingleProduct(props) {
                                     <Button variant='solid' colorScheme='green' w="200px">
                                         Buy Now
                                     </Button>
-                                    <Button variant='outline' colorScheme='green' w="200px">
+                                    <Button variant='outline' colorScheme='green' w="200px" onClick={() => navigate(`/`)} >
                                         Back
                                     </Button>
                                 </CardFooter>
