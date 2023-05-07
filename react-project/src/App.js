@@ -3,14 +3,20 @@ import './App.css';
 import BestSellers from "./Components/Pages/BestSellers";
 import Navbar from "./Components/Navbar/Navbar";
 import { AllRoutes } from "./Components/Routes/AllRoutes";
+import PageContextProvider from "./Context/pageContext";
+import { useState } from "react";
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <BrowserRouter>
-        {/* <Navbar /> */}
-        <AllRoutes />
-      </BrowserRouter>
+      <PageContextProvider >
+        <BrowserRouter>
+          <AllRoutes />
+        </BrowserRouter>
+      </PageContextProvider>
     </div>
   );
 }

@@ -9,12 +9,13 @@ import OralCare from "../Pages/OralCare"
 import Refills from "../Pages/Refills"
 import SkinCare from '../Pages/SkinCare';
 
+
 function NavDropdown() {
     return (
         <Tabs size='md' variant='enclosed' defaultIndex={0}>
             <TabList >
-                <Tab ml="180px" mr="20px">Best Sellers </Tab>
-                <Tab ml="20px" mr="20px">Hand Sanitizer</Tab>
+                <Tab ml="180px" mr="20px" >Best Sellers </Tab>
+                <Tab ml="20px" mr="20px" >Hand Sanitizer</Tab>
                 <Tab ml="20px" mr="20px">Hand Cream</Tab>
                 <Tab ml="20px" mr="20px" >Refills </Tab>
                 <Tab ml="20px" mr="20px" >Skin Care </Tab>
