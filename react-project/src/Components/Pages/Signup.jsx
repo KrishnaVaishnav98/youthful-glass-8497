@@ -4,8 +4,10 @@ import {
 import Logo from "../Navbar/Logo";
 import axios from 'axios';
 import { useState } from 'react';
+import Footer from '../Footer/Footer';
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 let initState = {
     name: "",
@@ -22,10 +24,37 @@ function SignUp() {
     const [email, setEmail] = useState(initState.email)
     const [password, setPassword] = useState(initState.password)
     const [cPassword, setcPassword] = useState(initState.cPassword)
+    const navigate = useNavigate()
 
     function handleSubmit() {
+        if (name == "" || email == "" || password == "" || cPassword == "") {
+            alert("Please fill out all required fileds")
+        }
+        else if (password !== cPassword) {
+            alert("Your Password must match confirm password")
+        }
+        else {
+            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/users`, {
+                name: name,
+                email: email,
+                password: password
+            })
+                .then((res) => {
+                    console.log(res.data)
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
+            navigate("/login")
+
+        }
 
     }
+
+
+
+
+
 
     return (<>
 
@@ -39,7 +68,7 @@ function SignUp() {
                     <Input type='text' value={name} onChange={(e) => (setName(e.target.value))} />
 
                     <FormLabel>Email address</FormLabel>
-                    <Input type='email' value={email} onChange={(e) => (setEmail(e.target.email))} />
+                    <Input type='email' value={email} onChange={(e) => (setEmail(e.target.value))} />
 
                     <FormLabel>Password</FormLabel>
                     <Input type='password' value={password} onChange={(e) => (setPassword(e.target.value))} />
@@ -52,8 +81,12 @@ function SignUp() {
                 </FormControl>
             </Box>
         </Center>
+        <Footer/>
     </>)
 }
+
+
+
 
 
 

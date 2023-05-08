@@ -27,6 +27,7 @@ function Logo() {
                     w="200px"
                     m="10px"
                     objectFit="contain"
+                    onClick={() => (navigate("/"))}
                 />
             </Box>
 

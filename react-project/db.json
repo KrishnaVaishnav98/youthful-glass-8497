@@ -1,376 +1,383 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "3 Hand Sanitizers Mystic Foliage",
-            "price": 12.70,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. This Mystic Foliage collection will leave your hands delicately scented and remind you of the warmness of the tropics and the exotic flora.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered \n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Hand Sanitizer Forest Grace: Green energy and the effervescence of fruit.\n  Hand Sanitizer Wild Orchid: Wild orchids around the warmth of vanilla flower and Indian Sandalwood.\n  Hand Sanitizer Tales of Lotus:Delicate water petals are covered with white figs and dry fruit notes.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Hand_Sanitizer_BE_pocket_Soothing_Lavender.jpg?v=1681718048"
-        },
-        {
-            "id": 2,
-            "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
-            "price": 12.70,
-            "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
-        },
-        {
-            "id": 3,
-            "name": "Hand Sanitizer Tales of Lotus",
-            "price": 5.90,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pocket_SA_MF_TalesLotus_1.jpg?v=1678356415"
-        },
-        {
-            "id": 4,
-            "name": "Hand Sanitizer Tales of Lotus",
-            "price": 5.90,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
-        },
-        {
-            "id": 5,
-            "name": "Niacinamide Face Cleanser – for Oily Skin",
-            "price": 10.90,
-            "about": "Composed of 97% ingredients of natural origin, this gel will cleanse your skin while balancing it and preparing it for the next steps.The main active ingredient you will find inside is Niacinamide; a form of vitamin B3 that reduces oil production in the skin and also the visibility of the pore size.",
-            "category": "SkinCare",
-            "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
-            "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/06_3.jpg?v=1678876009"
-        },
-        {
-            "id": 6,
-            "name": "Peptide Face Cleanser Refill Regular price",
-            "price": 9.90,
-            "about": "Composed of 97,1% ingredients of natural origin, this gel will cleanse your skin while hydrating and bringing elasticity to it. Peptide is an active antioxidant that helps counteract the effects of pollution, provides luminosity and improves the signs of aging.",
-            "category": "SkinCare",
-            "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
-            "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/WEB_FACECLEANSER_REFILL_PEPTIDE_1copia.jpg?v=1664957811"
-        },
-        {
-            "id": 7,
-            "name": "Full Skin Care Routine - for Oily Skin", 
-            "price": 43.90,
-            "about": "Reduces oil production in the skin. Controls dark spots and hyper-pigmentation. Calms redness and evens skin texture. Improves the skin barrier",
-            "category": "SkinCare",
-            "howToUse": "Face Cleanser:Apply morning and evening, massaging onto wet skin in a gentle circular motion. Rinse thoroughly with water.\n Face Cream:Apply and massage morning and/or night on cleansed skin.\n Face Serum: Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
-            "ingredients": "Niacinamide Face Cleanser: Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose.\n Niacinamide Face Cream: Aqua, Niacidamide, Caprylyl caprylate/caprate, Glycerin, Pentylene Glycol, Sodium Stearoyl Glutamate, Inulin, Hydroxyethyl Acrylate/Sodium, Acryloyldimethyl Taurate Copolymer, Xanthan Gum, Glyceryl Caprylate, Citric Acid, Glyceryl Undecylenate, Parfum(Fragrance), Fructose, Polysorbate 60, Sorbitan Isostearate, Linalool, Tocopherol, Citronellol, Geraniol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_9.png?v=1675872936"
-        },
-        {
-            "id": 8,
-            "name": "Full Skin Care Routine - for Dry Skin",
-            "price": 43.90,
-            "about": "Reduces oil production in the skin. Controls dark spots and hyper-pigmentation. Calms redness and evens skin texture. Improves the skin barrier",
-            "category": "SkinCare",
-            "howToUse": "Face Cleanser:Apply morning and evening, massaging onto wet skin in a gentle circular motion. Rinse thoroughly with water.\n Face Cream:Apply and massage morning and/or night on cleansed skin.\n Face Serum: Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
-            "ingredients": "Niacinamide Face Cleanser: Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose.\n Niacinamide Face Cream: Aqua, Niacidamide, Caprylyl caprylate/caprate, Glycerin, Pentylene Glycol, Sodium Stearoyl Glutamate, Inulin, Hydroxyethyl Acrylate/Sodium, Acryloyldimethyl Taurate Copolymer, Xanthan Gum, Glyceryl Caprylate, Citric Acid, Glyceryl Undecylenate, Parfum(Fragrance), Fructose, Polysorbate 60, Sorbitan Isostearate, Linalool, Tocopherol, Citronellol, Geraniol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_10.png?v=1675873019"
-        },
-        {
-            "id": 9,
-            "name": "3 Hand Sanitizers Mystic Foliage",
-            "price": 12.70,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. This Mystic Foliage collection will leave your hands delicately scented and remind you of the warmness of the tropics and the exotic flora.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered \n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Hand Sanitizer Forest Grace: Green energy and the effervescence of fruit.\n  Hand Sanitizer Wild Orchid: Wild orchids around the warmth of vanilla flower and Indian Sandalwood.\n  Hand Sanitizer Tales of Lotus:Delicate water petals are covered with white figs and dry fruit notes.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pack3_SA_MF.jpg?v=1678874635"
-        },
-        {
-            "id": 10,
-            "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
-            "price": 12.70,
-            "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
-        },
-        {
-            "id": 11,
-            "name": "Hand Sanitizer Tales of Lotus",
-            "price": 5.90,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pocket_SA_MF_TalesLotus_1.jpg?v=1678356415"
-        },
-        {
-            "id": 12,
-            "name": "Hand Sanitizer Tales of Lotus",
-            "price": 5.90,
-            "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
-            "category": "HandSanitizer",
-            "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-            "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
-        },
-        {
-            "id": 13,
-            "name": "Soft Skin, I'm In",
-            "price": 49.20,
-            "about": "Composed of 97% ingredients of natural origin, this gel will cleanse your skin while balancing it and preparing it for the next steps.The main active ingredient you will find inside is Niacinamide; a form of vitamin B3 that reduces oil production in the skin and also the visibility of the pore size.",
-            "category": "SkinCare",
-            "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
-            "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/SofterSkin_2OK.jpg?v=1681314583"
-        },
-        {
-            "id": 14,
-            "name": "Peptide Face Cleanser Refill Regular price",
-            "price": 9.90,
-            "about": "Composed of 97,1% ingredients of natural origin, this gel will cleanse your skin while hydrating and bringing elasticity to it. Peptide is an active antioxidant that helps counteract the effects of pollution, provides luminosity and improves the signs of aging.",
-            "category": "SkinCare",
-            "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
-            "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/WEB_FACECLEANSER_REFILL_PEPTIDE_1copia.jpg?v=1664957811"
-        },
-        {
-            "id": 15,
-            "name": "Hand Cream Coco Cooler",
-            "price": 8.30,
-            "about": "A hand cream inspired by creamy popsicles packed with all that prebiotic superfood your skin microflora needs to stay healthy from the inside-out! With prebiotics such as Inulin and Fructose that help protect the skin from air pollution.A formula made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin wherever you go!",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/05_14.jpg?v=1677661597"
-        },
-        {
-            "id": 16,
-            "name": "The core four - Serenity",
-            "price": 8.30,
-            "about": "If you’re looking for a partner in crime, stop your search. You’ve found four new matches that will treat your body and go with you anywhere. If the color blue gives you peace and serenity, this is definitely your choice.",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/GIFT_PACK_GREAT_SERENITY.jpg?v=1668526739"
-        },
-        {
-            "id": 17,
-            "name": "Hand Cream Fig Fizz",
-            "price": 9.30,
-            "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_5.jpg?v=1675940798"
-        },
-        {
-            "id": 18,
-            "name": "Hand Cream + Refill Tales of Lotus",
-            "price": 21.70,
-            "about": "A hand cream inspired by creamy popsicles packed with all that prebiotic superfood your skin microflora needs to stay healthy from the inside-out! With prebiotics such as Inulin and Fructose that help protect the skin from air pollution.A formula made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin wherever you go!",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/05_14.jpg?v=1677661597"
-        },
-        {
-            "id": 19,
-            "name": "Rich Hand Cream Pack",
-            "price": 18.30,
-            "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_MAYO2021_PRODUCT1258_1024x1024@2x.jpg?v=1676299576"
-        },
-        {
-            "id": 20,
-            "name": "Rich Hand Cream Pack",
-            "price": 18.30,
-            "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
-            "category": "HandCream",
-            "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
-            "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_MAYO2021_PRODUCT1258_1024x1024@2x.jpg?v=1676299576"
-        },
-        {
-            "id": 21,
-            "name": "Fluoride Free Toothpaste Pack",
-            "price": 8.30,
-            "about": "A toothpaste collection that remineralizes your teeth thanks to a premium formula with hydroxyapatite and prebiotics. Made with clean, vegan ingredients, our naturally whitening toothpaste will keep your smile whiter and healthier. Experience the fresh flavors inspired by dreamy locations around the world.",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224441.jpg?v=1677673152"
-        },
-        {
-            "id": 22,
-            "name": "Toothpaste Life's a Beach",
-            "price": 6.90,
-            "about": "A spicy mix of chai tea & mint, this refreshing flavor is here to remineralize your teeth thanks to its clean formula with Hydroxyapatite. Say hello to a healthy and bright smile!",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_NOV_19.jpg?v=1677660318"
-        },
-        {
-            "id": 23,
-            "name": "Toothpaste Fluoride + Refill",
-            "price": 16.30,
-            "about": "The best way to feel closer to Italy. Inspired by the Mediterranean aromas of citrus fruits and the aromatic notes of sage, the Dolce Vita Toothpaste will freshen your breath while keeping your teeth healthier than ever. With 97% of natural ingredients and Fluoride on it, it will remineralize your teeth while preventing cavities and tooth decay.",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Dolce_Vita_Producto_Refill_25c10242-65b7-4c0e-ba1a-daf31d7ce646.jpg?v=1654257037"
-        },
-        {
-            "id": 24,
-            "name": "Life Saver",
-            "price": 16.30,
-            "about": "Won’t be home all day? Here are the essentials you need to feel like you’ve just got out of the shower: toothpaste, hand sanitizer and deodorant. Always on point & renewed!",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/0003s_0003_Brillo_contraste1copia.jpg?v=1682345840"
-        },
-        {
-            "id": 25,
-            "name": "Toothpaste Fluoride Good on Ya",
-            "price": 6.90,
-            "about": "A spicy mix of chai tea & mint, this refreshing flavor is here to remineralize your teeth thanks to its clean formula with Hydroxyapatite. Say hello to a healthy and bright smile!",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Fluoride_Good_On_Ya1.jpg?v=1677768209"
-        },
-        {
-            "id": 26,
-            "name": "Toothpaste Fluoride Refill Dolce Vita",
-            "price": 16.30,
-            "about": "The best way to feel closer to Italy. Inspired by the Mediterranean aromas of citrus fruits and the aromatic notes of sage, the Dolce Vita Toothpaste will freshen your breath while keeping your teeth healthier than ever. With 97% of natural ingredients and Fluoride on it, it will remineralize your teeth while preventing cavities and tooth decay.",
-            "category": "OralCare",
-            "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Refills_DolceVita.jpg?v=1654256956"
-        },
-        {
-            "id": 27,
-            "name": "Hand Sanitizer Refill RO",
-            "price": 14.30,
-            "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
-            "category": "Refills",
-            "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
-            "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/095_b0a6ccb6-a59c-47fb-9298-39556bed295a.jpg?v=1651510136"
-        },
-        {
-            "id": 28,
-            "name": "Hand Sanitizer Refill DD",
-            "price": 14.90,
-            "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
-            "category": "Refills",
-            "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
-            "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/12.jpg?v=1651509693"
-        },
-        {
-            "id": 29,
-            "name": "Hand Sanitizer Refill RO",
-            "price": 14.30,
-            "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
-            "category": "Refills",
-            "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
-            "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/PURIFYING_VERBENA.jpg?v=1651510514"
-        },
-        {
-            "id": 30,
-            "name": "Hand Sanitizer Refill WN",
-            "price": 14.90,
-            "about": "Be part of the change by purchasing an eco-friendly option, that will extend your HAAN Pocket lifetime. If Wood Night is your favorite scent, you won’t want to let it finish. With this pouch, you will be able to refill it x3.",
-            "category": "Refills",
-            "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
-            "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/15.jpg?v=1651509718"
-        },
-        {
-            "id": 31,
-            "name": "Hand Soap Purifying Verbena",
-            "price": 11.90,
-            "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
-            "category": "HandSoap",
-            "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224718_512edd7f-bf3f-4cb9-8fb6-bed7d2cf894b.jpg?v=1651510593"
-        },
-        {
-            "id": 32,
-            "name": "Hand Soap Refill Purifying Verbena",
-            "price": 9.90,
-            "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
-            "category": "HandSoap",
-            "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/02_43.jpg?v=1677661677"
-        },
-        {
-            "id": 33,
-            "name": "Hand Soap Purifying Verbena",
-            "price": 11.90,
-            "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
-            "category": "HandSoap",
-            "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224718_512edd7f-bf3f-4cb9-8fb6-bed7d2cf894b.jpg?v=1651510593"
-        },
-        {
-            "id": 34,
-            "name": "Hand Cleansing Pack - Margarita Spirit",
-            "price": 14.90,
-            "about": "Your favorite Margarita Spirit Scent now available as a Hand Soap and a Hand Sanitizer. With this powerful combo, your hands will be always clean & hydrated, no matter where you go.",
-            "category": "HandSoap",
-            "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224859.jpg?v=1651510486"
-        },
-        {
-            "id": 35,
-            "name": "From Alaska To Ibiza",
-            "price": 47.90,
-            "about": "A pack with everything you need in any situation. Whether you're in Alaska or Ibiza.We give you all your body needs with the travel sizes of our Body Wash, Shampoo, Deodorant, Toothpaste and Hand Sanitizer. Its natural formulas are designed to make your skin and hair look shinier, softer and healthier. Take them with our Beauty Bag on your vacations, on a weekend getaway or to use them in your daily routine when you’re not at home.",
-            "category": "Combo",
-            "howToUse": "Shampoo: Apply a small amount onto wet hair and scalp to create a gentle lather. Rinse thoroughly. For external use only. Avoid contact with eyes. Keep out of reach of children.\n Body Wash: Pump gel into hand and apply to wet skin. Massage gently and rinse thoroughly. For external use only. Use only as directed. Avoid contact with eyes. Discontinue use if irritation occurs.\nDeodorant: Apply on clean and dry skin, covering the entire armpit. Leave to dry before putting clothes on. For external use only. Stop use if irritation occurs. Keep out of reach of children.\nToothpaste: Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/FromAlaskaIbiza_2_OK.jpg?v=1681314614"
-        },
-        {
-            "id": 36,
-            "name": "Soft Skin, I'm In",
-            "price": 49.20,
-            "about": "A pack with everything you need in any situation. Whether you're in Alaska or Ibiza.We give you all your body needs with the travel sizes of our Body Wash, Shampoo, Deodorant, Toothpaste and Hand Sanitizer. Its natural formulas are designed to make your skin and hair look shinier, softer and healthier. Take them with our Beauty Bag on your vacations, on a weekend getaway or to use them in your daily routine when you’re not at home.",
-            "category": "Combo",
-            "howToUse": "Shampoo: Apply a small amount onto wet hair and scalp to create a gentle lather. Rinse thoroughly. For external use only. Avoid contact with eyes. Keep out of reach of children.\n Body Wash: Pump gel into hand and apply to wet skin. Massage gently and rinse thoroughly. For external use only. Use only as directed. Avoid contact with eyes. Discontinue use if irritation occurs.\nDeodorant: Apply on clean and dry skin, covering the entire armpit. Leave to dry before putting clothes on. For external use only. Stop use if irritation occurs. Keep out of reach of children.\nToothpaste: Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-            "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/SofterSkin_2OK.jpg?v=1681314583"
-        },
-        {
-            "id": 37,
-            "name": "Full Skin Care Routine - for Dry Skin",
-            "price": 43.90,
-            "about": "Make up your full daily skincare routine ",
-            "category": "Combo",
-            "howToUse": "1.Face Cleanser: Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.\n  2.Face Cream: Apply and massage morning and/or night on cleansed skin.\n 3.Face Serum :Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
-            "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
-            "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/03_11.jpg?v=1675873024"
-        }
-    ],
-    "users": [],
-    "cart": []
+  "products": [
+    {
+      "id": 1,
+      "name": "3 Hand Sanitizers Mystic Foliage",
+      "price": 12.7,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. This Mystic Foliage collection will leave your hands delicately scented and remind you of the warmness of the tropics and the exotic flora.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered \n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Hand Sanitizer Forest Grace: Green energy and the effervescence of fruit.\n  Hand Sanitizer Wild Orchid: Wild orchids around the warmth of vanilla flower and Indian Sandalwood.\n  Hand Sanitizer Tales of Lotus:Delicate water petals are covered with white figs and dry fruit notes.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Hand_Sanitizer_BE_pocket_Soothing_Lavender.jpg?v=1681718048"
+    },
+    {
+      "id": 2,
+      "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
+      "price": 12.7,
+      "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
+    },
+    {
+      "id": 3,
+      "name": "Hand Sanitizer Tales of Lotus",
+      "price": 5.9,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pocket_SA_MF_TalesLotus_1.jpg?v=1678356415"
+    },
+    {
+      "id": 4,
+      "name": "Hand Sanitizer Tales of Lotus",
+      "price": 5.9,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
+    },
+    {
+      "id": 5,
+      "name": "Niacinamide Face Cleanser – for Oily Skin",
+      "price": 10.9,
+      "about": "Composed of 97% ingredients of natural origin, this gel will cleanse your skin while balancing it and preparing it for the next steps.The main active ingredient you will find inside is Niacinamide; a form of vitamin B3 that reduces oil production in the skin and also the visibility of the pore size.",
+      "category": "SkinCare",
+      "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/06_3.jpg?v=1678876009"
+    },
+    {
+      "id": 6,
+      "name": "Peptide Face Cleanser Refill Regular price",
+      "price": 9.9,
+      "about": "Composed of 97,1% ingredients of natural origin, this gel will cleanse your skin while hydrating and bringing elasticity to it. Peptide is an active antioxidant that helps counteract the effects of pollution, provides luminosity and improves the signs of aging.",
+      "category": "SkinCare",
+      "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/WEB_FACECLEANSER_REFILL_PEPTIDE_1copia.jpg?v=1664957811"
+    },
+    {
+      "id": 7,
+      "name": "Full Skin Care Routine - for Oily Skin",
+      "price": 43.9,
+      "about": "Reduces oil production in the skin. Controls dark spots and hyper-pigmentation. Calms redness and evens skin texture. Improves the skin barrier",
+      "category": "SkinCare",
+      "howToUse": "Face Cleanser:Apply morning and evening, massaging onto wet skin in a gentle circular motion. Rinse thoroughly with water.\n Face Cream:Apply and massage morning and/or night on cleansed skin.\n Face Serum: Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
+      "ingredients": "Niacinamide Face Cleanser: Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose.\n Niacinamide Face Cream: Aqua, Niacidamide, Caprylyl caprylate/caprate, Glycerin, Pentylene Glycol, Sodium Stearoyl Glutamate, Inulin, Hydroxyethyl Acrylate/Sodium, Acryloyldimethyl Taurate Copolymer, Xanthan Gum, Glyceryl Caprylate, Citric Acid, Glyceryl Undecylenate, Parfum(Fragrance), Fructose, Polysorbate 60, Sorbitan Isostearate, Linalool, Tocopherol, Citronellol, Geraniol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_9.png?v=1675872936"
+    },
+    {
+      "id": 8,
+      "name": "Full Skin Care Routine - for Dry Skin",
+      "price": 43.9,
+      "about": "Reduces oil production in the skin. Controls dark spots and hyper-pigmentation. Calms redness and evens skin texture. Improves the skin barrier",
+      "category": "SkinCare",
+      "howToUse": "Face Cleanser:Apply morning and evening, massaging onto wet skin in a gentle circular motion. Rinse thoroughly with water.\n Face Cream:Apply and massage morning and/or night on cleansed skin.\n Face Serum: Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
+      "ingredients": "Niacinamide Face Cleanser: Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose.\n Niacinamide Face Cream: Aqua, Niacidamide, Caprylyl caprylate/caprate, Glycerin, Pentylene Glycol, Sodium Stearoyl Glutamate, Inulin, Hydroxyethyl Acrylate/Sodium, Acryloyldimethyl Taurate Copolymer, Xanthan Gum, Glyceryl Caprylate, Citric Acid, Glyceryl Undecylenate, Parfum(Fragrance), Fructose, Polysorbate 60, Sorbitan Isostearate, Linalool, Tocopherol, Citronellol, Geraniol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_10.png?v=1675873019"
+    },
+    {
+      "id": 9,
+      "name": "3 Hand Sanitizers Mystic Foliage",
+      "price": 12.7,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. This Mystic Foliage collection will leave your hands delicately scented and remind you of the warmness of the tropics and the exotic flora.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered \n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Hand Sanitizer Forest Grace: Green energy and the effervescence of fruit.\n  Hand Sanitizer Wild Orchid: Wild orchids around the warmth of vanilla flower and Indian Sandalwood.\n  Hand Sanitizer Tales of Lotus:Delicate water petals are covered with white figs and dry fruit notes.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pack3_SA_MF.jpg?v=1678874635"
+    },
+    {
+      "id": 10,
+      "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
+      "price": 12.7,
+      "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
+    },
+    {
+      "id": 11,
+      "name": "Hand Sanitizer Tales of Lotus",
+      "price": 5.9,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Pocket_SA_MF_TalesLotus_1.jpg?v=1678356415"
+    },
+    {
+      "id": 12,
+      "name": "Hand Sanitizer Tales of Lotus",
+      "price": 5.9,
+      "about": "Cleanse and moisturize your hands with this formula with Aloe Vera that eliminates 99.99% of bacteria. The Tales of Lotus fragrance will leave your skin a delicate scent of delicate water petals with white figs and dry fruit notes.",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067"
+    },
+    {
+      "id": 13,
+      "name": "Soft Skin, I'm In",
+      "price": 49.2,
+      "about": "Composed of 97% ingredients of natural origin, this gel will cleanse your skin while balancing it and preparing it for the next steps.The main active ingredient you will find inside is Niacinamide; a form of vitamin B3 that reduces oil production in the skin and also the visibility of the pore size.",
+      "category": "SkinCare",
+      "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Niacinamide, Parfum (Fragrance), Disodium EDTA, Inulin, Tretasodium EDTA, Fructose",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/SofterSkin_2OK.jpg?v=1681314583"
+    },
+    {
+      "id": 14,
+      "name": "Peptide Face Cleanser Refill Regular price",
+      "price": 9.9,
+      "about": "Composed of 97,1% ingredients of natural origin, this gel will cleanse your skin while hydrating and bringing elasticity to it. Peptide is an active antioxidant that helps counteract the effects of pollution, provides luminosity and improves the signs of aging.",
+      "category": "SkinCare",
+      "howToUse": "Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/WEB_FACECLEANSER_REFILL_PEPTIDE_1copia.jpg?v=1664957811"
+    },
+    {
+      "id": 15,
+      "name": "Hand Cream Coco Cooler",
+      "price": 8.3,
+      "about": "A hand cream inspired by creamy popsicles packed with all that prebiotic superfood your skin microflora needs to stay healthy from the inside-out! With prebiotics such as Inulin and Fructose that help protect the skin from air pollution.A formula made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin wherever you go!",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/05_14.jpg?v=1677661597"
+    },
+    {
+      "id": 16,
+      "name": "The core four - Serenity",
+      "price": 8.3,
+      "about": "If you’re looking for a partner in crime, stop your search. You’ve found four new matches that will treat your body and go with you anywhere. If the color blue gives you peace and serenity, this is definitely your choice.",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/GIFT_PACK_GREAT_SERENITY.jpg?v=1668526739"
+    },
+    {
+      "id": 17,
+      "name": "Hand Cream Fig Fizz",
+      "price": 9.3,
+      "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/01_5.jpg?v=1675940798"
+    },
+    {
+      "id": 18,
+      "name": "Hand Cream + Refill Tales of Lotus",
+      "price": 21.7,
+      "about": "A hand cream inspired by creamy popsicles packed with all that prebiotic superfood your skin microflora needs to stay healthy from the inside-out! With prebiotics such as Inulin and Fructose that help protect the skin from air pollution.A formula made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin wherever you go!",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Aqua (Water), C13-15 alkane, Cetearyl Ethylhexanoate, Butyrospermum parkii (Shea) Butter, Cetearyl Alcohol, Cetyl Alcohol, Glycol Palmitate, Phenylpropanol, Caprylic/Capric Triglyceride, Jojoba Esters, Glyceryl Stearate, Inulin, 1.2-Hexanediol, Sodium Stearoyl Glutamate, Helianthus annuus (Sunflower) Seed Wax, Xanthan Gum, Parfum (Fragrance), Sclerotium Gum, Lecithin, Fructose, Pullulan, Laminaria ochroleuca Extract, Disodium Cetearyl Sulfosuccinate, Phytic Acid, Polyglycerin-3, Limonene, Silica, Coumarin, Alpha-Isomethyl Ionone",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/05_14.jpg?v=1677661597"
+    },
+    {
+      "id": 19,
+      "name": "Rich Hand Cream Pack",
+      "price": 18.3,
+      "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_MAYO2021_PRODUCT1258_1024x1024@2x.jpg?v=1676299576"
+    },
+    {
+      "id": 20,
+      "name": "Rich Hand Cream Pack",
+      "price": 18.3,
+      "about": "An incredibly moisturising hand cream collection inspired by creamy popsicles packed with all that prebiotic superfood your skin needs to stay healthy from the inside out! Made with 96% natural origin ingredients, these three exclusive fragrances are here to nourish your skin, leaving a silky hydrating finish.",
+      "category": "HandCream",
+      "howToUse": "1.Apply a small amount onto the skin and massage gently until absorved.",
+      "ingredients": "Carrot Kick: 1,2- Hexanediol, Aqua, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Caprylic/Capric Triglyceride, Cetearyl Alcohol , Cetearyl Ethylhexanoate, Cetyl Alcohol, Clyceryl Stearate, Coumarin, Disodium Cetearyl Sulfosuccinate, Fructose, Glycol Palmitate, Helianthis Annuus (Sunflower) Seed Wax, Hexyl Cinnamal, Inulin , Jojoba Esters , Laminaria Ochroleuca Extract, Lecithin, Limonene, Linalool, Parfum , Phenylpropanol, Phytic Acid, Polyglycerin-3, Pullulan, Scelerotium Gum, Silica, Sodium Stearoyl Glutamate, Xanthan Gum.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_MAYO2021_PRODUCT1258_1024x1024@2x.jpg?v=1676299576"
+    },
+    {
+      "id": 21,
+      "name": "Fluoride Free Toothpaste Pack",
+      "price": 8.3,
+      "about": "A toothpaste collection that remineralizes your teeth thanks to a premium formula with hydroxyapatite and prebiotics. Made with clean, vegan ingredients, our naturally whitening toothpaste will keep your smile whiter and healthier. Experience the fresh flavors inspired by dreamy locations around the world.",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224441.jpg?v=1677673152"
+    },
+    {
+      "id": 22,
+      "name": "Toothpaste Life's a Beach",
+      "price": 6.9,
+      "about": "A spicy mix of chai tea & mint, this refreshing flavor is here to remineralize your teeth thanks to its clean formula with Hydroxyapatite. Say hello to a healthy and bright smile!",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_NOV_19.jpg?v=1677660318"
+    },
+    {
+      "id": 23,
+      "name": "Toothpaste Fluoride + Refill",
+      "price": 16.3,
+      "about": "The best way to feel closer to Italy. Inspired by the Mediterranean aromas of citrus fruits and the aromatic notes of sage, the Dolce Vita Toothpaste will freshen your breath while keeping your teeth healthier than ever. With 97% of natural ingredients and Fluoride on it, it will remineralize your teeth while preventing cavities and tooth decay.",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Dolce_Vita_Producto_Refill_25c10242-65b7-4c0e-ba1a-daf31d7ce646.jpg?v=1654257037"
+    },
+    {
+      "id": 24,
+      "name": "Life Saver",
+      "price": 16.3,
+      "about": "Won’t be home all day? Here are the essentials you need to feel like you’ve just got out of the shower: toothpaste, hand sanitizer and deodorant. Always on point & renewed!",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/0003s_0003_Brillo_contraste1copia.jpg?v=1682345840"
+    },
+    {
+      "id": 25,
+      "name": "Toothpaste Fluoride Good on Ya",
+      "price": 6.9,
+      "about": "A spicy mix of chai tea & mint, this refreshing flavor is here to remineralize your teeth thanks to its clean formula with Hydroxyapatite. Say hello to a healthy and bright smile!",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Fluoride_Good_On_Ya1.jpg?v=1677768209"
+    },
+    {
+      "id": 26,
+      "name": "Toothpaste Fluoride Refill Dolce Vita",
+      "price": 16.3,
+      "about": "The best way to feel closer to Italy. Inspired by the Mediterranean aromas of citrus fruits and the aromatic notes of sage, the Dolce Vita Toothpaste will freshen your breath while keeping your teeth healthier than ever. With 97% of natural ingredients and Fluoride on it, it will remineralize your teeth while preventing cavities and tooth decay.",
+      "category": "OralCare",
+      "howToUse": "Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Apple Day: Aqua, Cetylpyridinium Chloride, Cocamidopropyl Betaine, Fructose, Glycerin, Hydrated Silica, Hydroxypatite, Inulin, Mentha Arvensis Herb Oil , Mentha Piperita Oil, Parfum, Peg-8, Potassium Benzoate, Sodium Benzoate, Sodium Chloride, Sodium Saccharin, Sorbitol, Titanium Dioxide, Xanthan Gum, Xylitol.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Toothpaste_Refills_DolceVita.jpg?v=1654256956"
+    },
+    {
+      "id": 27,
+      "name": "Hand Sanitizer Refill RO",
+      "price": 14.3,
+      "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
+      "category": "Refills",
+      "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
+      "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/095_b0a6ccb6-a59c-47fb-9298-39556bed295a.jpg?v=1651510136"
+    },
+    {
+      "id": 28,
+      "name": "Hand Sanitizer Refill DD",
+      "price": 14.9,
+      "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
+      "category": "Refills",
+      "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
+      "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/12.jpg?v=1651509693"
+    },
+    {
+      "id": 29,
+      "name": "Hand Sanitizer Refill RO",
+      "price": 14.3,
+      "about": "Extend your HAAN Pocket’s lifetime with an extra dose of our 100% vegan and cruelty-free formula. Designed with the planet in mind, this Bright Rose Refill pouch smells like flowers paired with a green touch of geranium.",
+      "category": "Refills",
+      "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
+      "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/PURIFYING_VERBENA.jpg?v=1651510514"
+    },
+    {
+      "id": 30,
+      "name": "Hand Sanitizer Refill WN",
+      "price": 14.9,
+      "about": "Be part of the change by purchasing an eco-friendly option, that will extend your HAAN Pocket lifetime. If Wood Night is your favorite scent, you won’t want to let it finish. With this pouch, you will be able to refill it x3.",
+      "category": "Refills",
+      "howToUse": "1.Remove the cap.\n 2.Cut 1 mm of the top.\n 3.Lift the top.\n 4.Open the aperture.\n 5.Refill the bottle.",
+      "ingredients": "65% Alcohol Denat.,Aqua(Water), Aloe barbadensis Leaf Juice, Methyl Gluceth-10, Parfum(Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Alpha-Isomethyl Ionone, Tromethamine, Potassium Sorbate, Citronellol, Limonene, Linalool, Hydroxycitronellal, Sodium Benzoate, Eugenol",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/15.jpg?v=1651509718"
+    },
+    {
+      "id": 31,
+      "name": "Hand Soap Purifying Verbena",
+      "price": 11.9,
+      "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
+      "category": "HandSoap",
+      "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224718_512edd7f-bf3f-4cb9-8fb6-bed7d2cf894b.jpg?v=1651510593"
+    },
+    {
+      "id": 32,
+      "name": "Hand Soap Refill Purifying Verbena",
+      "price": 9.9,
+      "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
+      "category": "HandSoap",
+      "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/02_43.jpg?v=1677661677"
+    },
+    {
+      "id": 33,
+      "name": "Hand Soap Purifying Verbena",
+      "price": 11.9,
+      "about": "An all-natural fragrance that captures the crisp and clean scent of verbena, benefiting from its calming effect with every single hand wash. Our delightfully durable, radically refillable hand soap adds a splash of sustainability to your sink while cleaning and hydrating your hands thanks to our natural formula with Aloe Vera.",
+      "category": "HandSoap",
+      "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224718_512edd7f-bf3f-4cb9-8fb6-bed7d2cf894b.jpg?v=1651510593"
+    },
+    {
+      "id": 34,
+      "name": "Hand Cleansing Pack - Margarita Spirit",
+      "price": 14.9,
+      "about": "Your favorite Margarita Spirit Scent now available as a Hand Soap and a Hand Sanitizer. With this powerful combo, your hands will be always clean & hydrated, no matter where you go.",
+      "category": "HandSoap",
+      "howToUse": "Dispense a small amount onto wet hands. Rub and rinse with water. External use only. Avoid contact with eyes.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/HAAN_JULIO20224859.jpg?v=1651510486"
+    },
+    {
+      "id": 35,
+      "name": "From Alaska To Ibiza",
+      "price": 47.9,
+      "about": "A pack with everything you need in any situation. Whether you're in Alaska or Ibiza.We give you all your body needs with the travel sizes of our Body Wash, Shampoo, Deodorant, Toothpaste and Hand Sanitizer. Its natural formulas are designed to make your skin and hair look shinier, softer and healthier. Take them with our Beauty Bag on your vacations, on a weekend getaway or to use them in your daily routine when you’re not at home.",
+      "category": "Combo",
+      "howToUse": "Shampoo: Apply a small amount onto wet hair and scalp to create a gentle lather. Rinse thoroughly. For external use only. Avoid contact with eyes. Keep out of reach of children.\n Body Wash: Pump gel into hand and apply to wet skin. Massage gently and rinse thoroughly. For external use only. Use only as directed. Avoid contact with eyes. Discontinue use if irritation occurs.\nDeodorant: Apply on clean and dry skin, covering the entire armpit. Leave to dry before putting clothes on. For external use only. Stop use if irritation occurs. Keep out of reach of children.\nToothpaste: Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/FromAlaskaIbiza_2_OK.jpg?v=1681314614"
+    },
+    {
+      "id": 36,
+      "name": "Soft Skin, I'm In",
+      "price": 49.2,
+      "about": "A pack with everything you need in any situation. Whether you're in Alaska or Ibiza.We give you all your body needs with the travel sizes of our Body Wash, Shampoo, Deodorant, Toothpaste and Hand Sanitizer. Its natural formulas are designed to make your skin and hair look shinier, softer and healthier. Take them with our Beauty Bag on your vacations, on a weekend getaway or to use them in your daily routine when you’re not at home.",
+      "category": "Combo",
+      "howToUse": "Shampoo: Apply a small amount onto wet hair and scalp to create a gentle lather. Rinse thoroughly. For external use only. Avoid contact with eyes. Keep out of reach of children.\n Body Wash: Pump gel into hand and apply to wet skin. Massage gently and rinse thoroughly. For external use only. Use only as directed. Avoid contact with eyes. Discontinue use if irritation occurs.\nDeodorant: Apply on clean and dry skin, covering the entire armpit. Leave to dry before putting clothes on. For external use only. Stop use if irritation occurs. Keep out of reach of children.\nToothpaste: Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
+      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/SofterSkin_2OK.jpg?v=1681314583"
+    },
+    {
+      "id": 37,
+      "name": "Full Skin Care Routine - for Dry Skin",
+      "price": 43.9,
+      "about": "Make up your full daily skincare routine ",
+      "category": "Combo",
+      "howToUse": "1.Face Cleanser: Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.\n  2.Face Cream: Apply and massage morning and/or night on cleansed skin.\n 3.Face Serum :Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/03_11.jpg?v=1675873024"
+    }
+  ],
+  "users": [
+    {
+      "name": "Krishna",
+      "email": "email@gmail.com",
+      "password": "1",
+      "id": 1
+    }
+  ],
+  "cart": []
 }

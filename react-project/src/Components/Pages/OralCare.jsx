@@ -5,11 +5,14 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search2Icon } from '@chakra-ui/icons'
 import { Input, InputGroup, InputLeftElement, Select } from '@chakra-ui/react'
+import Footer from '../Footer/Footer';
+
 
 function OralCare() {
     const [data, setData] = useState([])
     const [search, setSearch] = useState("")
     const [order, setOrder] = useState("")
+    const [cartData, setCartData] = useState([])
 
     function Products() {
         let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=OralCare&q=${search}&_sort=price&_order=${order}`
@@ -25,12 +28,63 @@ function OralCare() {
     }
 
 
+
     useEffect(() => {
         Products()
+        MycartData()
     }, [])
+
     useEffect(() => {
         Products()
     }, [search, order])
+
+    function MycartData() {
+        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+            .then((res) => {
+                setCartData(res.data)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
+
+    function handleCart(el) {
+        console.log("entered")
+        if (cartData.length > 0) {
+
+            cartData.forEach((product) => {
+                if (product.id === el.id) {
+                    alert("Already in Cart")
+                }
+                else {
+                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                        ...el,
+                        quantity: 1
+                    })
+                        .then((res) => {
+                            console.log(res.data)
+                            setCartData(res.data)
+                        })
+                        .catch((err) => {
+                            console.log("Not working", err)
+                        })
+                }
+
+            });
+        } else {
+            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                ...el,
+                quantity: 1
+            })
+                .then((res) => {
+                    console.log(res.data)
+                    setCartData(res.data)
+                })
+                .catch((err) => {
+                    console.log("Not working", err)
+                })
+        }
+    }
 
     return (<>
 
@@ -49,7 +103,7 @@ function OralCare() {
                 </Select>
             </Flex>
         </Center>
-        
+
         <Grid templateColumns='repeat(4, 1fr)' gap="50px">
 
             {
@@ -77,7 +131,7 @@ function OralCare() {
                             <Center>
                                 <CardFooter justifyContent={'space-evenly'}>
                                     <ButtonGroup spacing='2'>
-                                        <Button variant='ghost' colorScheme='green' bg="#E8F5E9" >
+                                        <Button variant='ghost' colorScheme='green' bg="#E8F5E9" onClick={() => (handleCart(el))} >
                                             Add to cart
                                         </Button>
                                         <Button variant='outline' colorScheme='green' onClick={() => ("clicked")}  >
@@ -94,6 +148,7 @@ function OralCare() {
             }
 
         </Grid >
+        <Footer />
     </>)
 }
 
