@@ -15,18 +15,18 @@ import {
 import Logo from "../Navbar/Logo";
 import { PageContext } from "../../Context/pageContext";
 import { useContext } from "react";
-
+import Footer from '../Footer/Footer';
 
 function SingleProduct(props) {
 
     const { id } = useParams()
     const [data, setData] = useState([])
-    // const [category, setCategory] = useState('Best Seller');
     const navigate = useNavigate();
     let category = useContext(PageContext)
-    console.log("////////////", category)
+    const [cartData, setCartData] = useState([])
+
     category = data.category
-    console.log("////////////2", category)
+    console.log("data.id==========", data.id)
     function Products() {
         axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products/${id}`)
             .then((res) => {
@@ -40,8 +40,62 @@ function SingleProduct(props) {
 
     useEffect(() => {
         Products()
+        MycartData()
     }, [])
 
+    function handleBuyNow(data) {
+        handleCart(data)
+
+    }
+
+    function MycartData() {
+        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+            .then((res) => {
+                setCartData(res.data)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
+
+    function handleCart(el) {
+        console.log("entered")
+        if (cartData.length > 0) {
+
+            cartData.forEach((product) => {
+                if (product.id === el.id) {
+                    alert("Already in Cart")
+                }
+                else {
+                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                        ...el,
+                        quantity: 1
+                    })
+                        .then((res) => {
+                            console.log(res.data)
+                            setCartData(res.data)
+                        })
+                        .catch((err) => {
+                            console.log("Not working", err)
+                        })
+                }
+
+            });
+        } else {
+            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                ...el,
+                quantity: 1
+            })
+                .then((res) => {
+                    console.log(res.data)
+                    setCartData(res.data)
+                    navigate("/cart")
+                })
+                .catch((err) => {
+                    console.log("Not working", err)
+                })
+        }
+    }
 
     function BasicUsage(name, ingredients) {
         const { isOpen, onOpen, onClose } = useDisclosure()
@@ -119,7 +173,7 @@ function SingleProduct(props) {
                             </CardBody>
                             <Center >
                                 <CardFooter gap="40px">
-                                    <Button variant='solid' colorScheme='green' w="200px">
+                                    <Button variant='solid' colorScheme='green' w="200px" onClick={() => (handleBuyNow(data))}>
                                         Buy Now
                                     </Button>
                                     <Button variant='outline' colorScheme='green' w="200px" onClick={() => navigate(`/`)} >
@@ -131,6 +185,7 @@ function SingleProduct(props) {
                     </Center>
                 </Card>
             </Center >
+            <Footer />
         </>
 
     )

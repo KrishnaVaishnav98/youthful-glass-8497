@@ -1,21 +1,17 @@
 import { Image, Flex, Box, Text, Heading, Button, ButtonGroup, Grid, GridItem, background } from '@chakra-ui/react'
 import { Card, CardBody, Stack, CardFooter, Center } from '@chakra-ui/react'
-
-
-import Products from './Products';
-import ProductCard from './Search';
+import Footer from '../Footer/Footer';
 import axios from "axios"
 import { useEffect, useState } from 'react';
-import Navbar from '../Navbar/Navbar';
 import { Link, useNavigate } from 'react-router-dom';
-import { color } from 'framer-motion';
-import SingleProduct from './SingleProduct';
+
 
 
 function BestSellers() {
 
 
     const [data, setData] = useState([])
+    const [cartData, setCartData] = useState([])
     const navigate = useNavigate()
 
     function Products() {
@@ -27,12 +23,63 @@ function BestSellers() {
             .catch((err) => {
                 console.log(err)
             })
+
+    }
+
+    function MycartData() {
+        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+            .then((res) => {
+                setCartData(res.data)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
+
+    function handleCart(el) {
+        console.log("entered")
+        if (cartData.length > 0) {
+
+            cartData.forEach((product) => {
+                if (product.id === el.id) {
+                    alert("Already in Cart")
+                }
+                else {
+                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                        ...el,
+                        quantity: 1
+                    })
+                        .then((res) => {
+                            console.log(res.data)
+                            setCartData(res.data)
+                        })
+                        .catch((err) => {
+                            console.log("Not working", err)
+                        })
+                }
+
+            });
+        } else {
+            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                ...el,
+                quantity: 1
+            })
+                .then((res) => {
+                    console.log(res.data)
+                    setCartData(res.data)
+                })
+                .catch((err) => {
+                    console.log("Not working", err)
+                })
+        }
     }
 
 
     useEffect(() => {
         Products()
+        MycartData()
     }, [])
+
 
 
     return (
@@ -53,6 +100,7 @@ function BestSellers() {
                 {
                     data.map((el) => (
 
+
                         < Box key={el.id} >
                             <Card maxW='sm' mt="50px">
                                 <CardBody>
@@ -66,7 +114,7 @@ function BestSellers() {
                                         <Text color='#263238' fontWeight="bold" fontSize='lg' fontFamily="arial" size='md'>{el.name}</Text>
 
                                         <Text color='#455A64' fontSize='xl'>
-                                            {el.price}€
+                                            {el.price} €
                                         </Text>
                                     </Stack>
                                 </CardBody>
@@ -74,7 +122,7 @@ function BestSellers() {
                                 <Center>
                                     <CardFooter justifyContent={'space-evenly'}>
                                         <ButtonGroup spacing='2'>
-                                            <Button variant='ghost' colorScheme='green' bg="#E8F5E9" >
+                                            <Button variant='ghost' colorScheme='green' bg="#E8F5E9" onClick={() => (handleCart(el))} >
                                                 Add to cart
                                             </Button>
                                             <Button variant='outline' colorScheme='green'  >
@@ -87,10 +135,12 @@ function BestSellers() {
                                 </Center>
                             </Card >
                         </Box >
+
                     ))
                 }
 
             </Grid >
+            <Footer />
         </>
     )
 }
