@@ -1,5 +1,4 @@
 # youthful-glass-8497
-# youthful-glass-8497
 
 ## E-Commerce Website : Skinnetic
 This is a basic level e-commerce website built using React where you can buy skincare products.
