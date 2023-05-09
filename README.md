@@ -32,3 +32,4 @@ The application allows users to:
 2.View the details of a specific product
 3.Add products to their cart
 4.View their cart and checkout
+
