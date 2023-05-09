@@ -19,11 +19,13 @@ It is an individual project created by:
 ## Features
 
 1. login
-2. Signin
-3. Add to Cart
-4. Filter & Sort
-5. Checkout Page
-6. Single Product Details
+2. logout
+3. Signin
+4. Add to Cart
+5. Filter & Sort
+6. Checkout Page
+7. Single Product Details
+
 
 ## Usage
 The application allows users to:
