@@ -14,6 +14,7 @@ function BestSellers() {
     const [cartData, setCartData] = useState([])
     const navigate = useNavigate()
 
+
     function Products() {
         axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products`)
             .then((res) => {
@@ -95,14 +96,16 @@ function BestSellers() {
 
             </Box>
 
+            <Heading mt="30px" mb="30px">Our Best Sellers</Heading>
+
             <Grid templateColumns='repeat(4, 1fr)' gap="50px">
 
                 {
+
                     data.map((el) => (
 
-
                         < Box key={el.id} >
-                            <Card maxW='sm' mt="50px">
+                            <Card maxW='sm'>
                                 <CardBody>
                                     <Image
 

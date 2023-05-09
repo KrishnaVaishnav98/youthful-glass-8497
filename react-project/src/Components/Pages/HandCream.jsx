@@ -18,7 +18,6 @@ function HandCream() {
 
         axios.get(url)
             .then((res) => {
-                console.log(res.data)
                 setData(res.data)
             })
             .catch((err) => {
@@ -59,7 +58,6 @@ function HandCream() {
                         quantity: 1
                     })
                         .then((res) => {
-                            console.log(res.data)
                             setCartData(res.data)
                         })
                         .catch((err) => {
@@ -74,7 +72,6 @@ function HandCream() {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
                     setCartData(res.data)
                 })
                 .catch((err) => {

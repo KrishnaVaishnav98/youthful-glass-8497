@@ -379,5 +379,17 @@
       "id": 1
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 2,
+      "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
+      "price": 12.7,
+      "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
+      "category": "HandSanitizer",
+      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
+      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067",
+      "quantity": 1
+    }
+  ]
 }

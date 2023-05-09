@@ -18,7 +18,6 @@ function SkinCare() {
 
         axios.get(url)
             .then((res) => {
-                console.log(res.data)
                 setData(res.data)
             })
             .catch((err) => {
@@ -60,7 +59,6 @@ function SkinCare() {
                         quantity: 1
                     })
                         .then((res) => {
-                            console.log(res.data)
                             setCartData(res.data)
                         })
                         .catch((err) => {
