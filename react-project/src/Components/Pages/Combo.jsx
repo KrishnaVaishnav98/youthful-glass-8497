@@ -19,7 +19,6 @@ function Combo() {
 
         axios.get(url)
             .then((res) => {
-                console.log(res.data)
                 setData(res.data)
             })
             .catch((err) => {
@@ -61,7 +60,6 @@ function Combo() {
                         quantity: 1
                     })
                         .then((res) => {
-                            console.log(res.data)
                             setCartData(res.data)
                         })
                         .catch((err) => {
@@ -76,7 +74,6 @@ function Combo() {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
                     setCartData(res.data)
                 })
                 .catch((err) => {
@@ -109,7 +106,6 @@ function Combo() {
             {
                 data.map((el) => (
 
-                    // <ProductCard key={el.id} name={el.name} avatar={el.avatar} price={el.price} />
                     < Box key={el.id} >
                         <Card maxW='sm' mt="50px">
                             <CardBody>

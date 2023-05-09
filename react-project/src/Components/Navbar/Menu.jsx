@@ -1,9 +1,9 @@
 import { Menu, MenuButton, MenuList, MenuItem, Box, IconButton, Image } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-
-
+import { useNavigate } from 'react-router-dom';
 
 function NavMenu() {
+
     return (
         <Menu >
             <Box>

@@ -59,7 +59,6 @@ function HandSanitizer() {
                         quantity: 1
                     })
                         .then((res) => {
-                            console.log(res.data)
                             setCartData(res.data)
                         })
                         .catch((err) => {
@@ -74,7 +73,6 @@ function HandSanitizer() {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
                     setCartData(res.data)
                 })
                 .catch((err) => {

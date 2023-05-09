@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Footer from '../Footer/Footer';
+import { AuthContext } from '../../Context/AuthContext';
+import { useContext } from "react";
 
 let initState = {
     email: "",
@@ -17,6 +19,8 @@ function LogIn() {
     const [email, setEmail] = useState(initState.email)
     const [password, setPassword] = useState(initState.password)
     const [userData, setUserData] = useState([])
+    const Auth = useContext(AuthContext)
+    console.log("Auth", Auth)
 
 
     const navigate = useNavigate()
@@ -33,11 +37,11 @@ function LogIn() {
 
     function handleSubmit(e) {
         e.preventDefault()
-
         let foundUser = false;
         userData.forEach((user) => {
             if (user.email === email && user.password === password) {
-                foundUser = true;
+                foundUser = true
+                Auth.loginUser()
             }
         });
         if (foundUser) {

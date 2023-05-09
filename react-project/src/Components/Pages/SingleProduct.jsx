@@ -72,7 +72,6 @@ function SingleProduct(props) {
                         quantity: 1
                     })
                         .then((res) => {
-                            console.log(res.data)
                             setCartData(res.data)
                         })
                         .catch((err) => {
@@ -87,7 +86,6 @@ function SingleProduct(props) {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
                     setCartData(res.data)
                     navigate("/cart")
                 })

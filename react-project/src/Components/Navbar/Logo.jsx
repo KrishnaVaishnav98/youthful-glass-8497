@@ -2,12 +2,13 @@ import { Flex, Spacer, Text, Box, Grid, HStack, Heading, Stack, Avatar, Icon, Im
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Center } from '@chakra-ui/react'
 import NavMenu from './Menu'
 import { useNavigate } from 'react-router-dom'
-
+import { useContext } from 'react'
+import { AuthContext } from '../../Context/AuthContext'
 
 function Logo() {
 
     const navigate = useNavigate()
-
+    const Auth = useContext(AuthContext)
 
     return (<>
 
@@ -35,17 +36,33 @@ function Logo() {
 
             <Box >
                 <Flex>
-                    <Box onClick={() => navigate("/login")}>
-                        <Tooltip label='Log-in' fontSize='md' >
-                            < Image
-                                m="10px"
-                                boxSize="30px"
-                                objectFit='cover'
-                                src={require('../../Images/profile.png')}
-                                alt='Skinnetic'
-                            />
-                        </Tooltip>
-                    </Box >
+                    {
+                        Auth.isAuth ?
+                            <Box onClick={() => Auth.logoutUser()} >
+                                <Tooltip label='Log-out' fontSize='md' >
+                                    < Image
+                                        m="10px"
+                                        boxSize="30px"
+                                        objectFit='cover'
+                                        src={require('../../Images/profile.png')}
+                                        alt='Skinnetic'
+                                    />
+                                </Tooltip>
+                            </Box >
+
+                            :
+                            <Box onClick={() => navigate("/login")} >
+                                <Tooltip label='Log-in' fontSize='md' >
+                                    < Image
+                                        m="10px"
+                                        boxSize="30px"
+                                        objectFit='cover'
+                                        src={require('../../Images/profile.png')}
+                                        alt='Skinnetic'
+                                    />
+                                </Tooltip>
+                            </Box >
+                    }
                     <Box onClick={() => navigate("/cart")}>
                         <Tooltip label='cart' fontSize='md'  >
                             <Image
@@ -57,6 +74,7 @@ function Logo() {
                             />
                         </Tooltip>
                     </Box >
+
                 </Flex>
 
             </Box >
