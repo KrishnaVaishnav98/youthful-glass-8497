@@ -8,8 +8,6 @@ import Footer from '../Footer/Footer';
 
 function Cart() {
 
-
-
     const [formData, setFormData] = useState({
         fullName: '',
         email: '',

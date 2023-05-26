@@ -41,6 +41,7 @@ function OralCare() {
         axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
+
             })
             .catch((err) => {
                 console.log(err)
@@ -61,7 +62,8 @@ function OralCare() {
                         quantity: 1
                     })
                         .then((res) => {
-                            setCartData(res.data)
+                            alert("Product added to Cart")
+                            MycartData()
                         })
                         .catch((err) => {
                             console.log("Not working", err)
@@ -75,8 +77,8 @@ function OralCare() {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
-                    setCartData(res.data)
+                    alert("Product added to Cart")
+                    MycartData()
                 })
                 .catch((err) => {
                     console.log("Not working", err)

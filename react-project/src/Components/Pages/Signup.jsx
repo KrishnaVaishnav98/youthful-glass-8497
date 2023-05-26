@@ -1,5 +1,5 @@
 import {
-    FormControl, FormLabel, FormErrorMessage, FormHelperText, Input, Box, Center, Button, Heading, ButtonGroup
+    FormControl, FormLabel, FormErrorMessage, FormHelperText, Input, Box, Center, Button, Heading, ButtonGroup, Flex, Image
 } from '@chakra-ui/react'
 import Logo from "../Navbar/Logo";
 import axios from 'axios';
@@ -60,28 +60,33 @@ function SignUp() {
 
         <Logo />
         <Center>
+            <Flex>
+                <Box w="800px" mt="50px" h="550px">
+                    <Image w="800px" h="550px" borderRadius={"10px"} src="https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8&w=1000&q=80" />
+                </Box>
+                <Box mt="50px" h="550px" boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"} p="50px">
+                    <Heading mb="20px" >Sign Up</Heading>
+                    <FormControl w="400px" isRequired>
+                        <FormLabel>Name</FormLabel>
+                        <Input type='text' value={name} onChange={(e) => (setName(e.target.value))} />
 
-            <Box mt="60px" boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"} p="50px">
-                <Heading mb="20px" >Sign Up</Heading>
-                <FormControl w="400px" isRequired>
-                    <FormLabel>Name</FormLabel>
-                    <Input type='text' value={name} onChange={(e) => (setName(e.target.value))} />
+                        <FormLabel>Email address</FormLabel>
+                        <Input type='email' value={email} onChange={(e) => (setEmail(e.target.value))} />
 
-                    <FormLabel>Email address</FormLabel>
-                    <Input type='email' value={email} onChange={(e) => (setEmail(e.target.value))} />
+                        <FormLabel>Password</FormLabel>
+                        <Input type='password' value={password} onChange={(e) => (setPassword(e.target.value))} />
 
-                    <FormLabel>Password</FormLabel>
-                    <Input type='password' value={password} onChange={(e) => (setPassword(e.target.value))} />
+                        <FormLabel>Confirm Password</FormLabel>
+                        <Input type='password' value={cPassword} onChange={(e) => (setcPassword(e.target.value))} />
 
-                    <FormLabel>Confirm Password</FormLabel>
-                    <Input type='password' value={cPassword} onChange={(e) => (setcPassword(e.target.value))} />
+                        <Button mt="30px" variant='solid' colorScheme='green' onClick={handleSubmit}>Submit</Button>
 
-                    <Button mt="30px" variant='solid' colorScheme='green' onClick={handleSubmit}>Submit</Button>
+                    </FormControl>
+                </Box>
 
-                </FormControl>
-            </Box>
+            </Flex>
         </Center>
-        <Footer/>
+        <Footer />
     </>)
 }
 

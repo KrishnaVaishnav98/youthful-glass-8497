@@ -20,7 +20,6 @@ function LogIn() {
     const [password, setPassword] = useState(initState.password)
     const [userData, setUserData] = useState([])
     const Auth = useContext(AuthContext)
-    console.log("Auth", Auth)
 
 
     const navigate = useNavigate()

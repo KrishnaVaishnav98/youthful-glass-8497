@@ -60,7 +60,8 @@ function Refills() {
                         quantity: 1
                     })
                         .then((res) => {
-                            setCartData(res.data)
+                            alert("Product added to Cart")
+                            MycartData()
                         })
                         .catch((err) => {
                             console.log("Not working", err)
@@ -74,7 +75,8 @@ function Refills() {
                 quantity: 1
             })
                 .then((res) => {
-                    setCartData(res.data)
+                    alert("Product added to Cart")
+                    MycartData()
                 })
                 .catch((err) => {
                     console.log("Not working", err)

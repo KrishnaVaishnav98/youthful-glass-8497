@@ -59,7 +59,8 @@ function SkinCare() {
                         quantity: 1
                     })
                         .then((res) => {
-                            setCartData(res.data)
+                            alert("Product added to Cart")
+                            MycartData()
                         })
                         .catch((err) => {
                             console.log("Not working", err)
@@ -73,8 +74,8 @@ function SkinCare() {
                 quantity: 1
             })
                 .then((res) => {
-                    console.log(res.data)
-                    setCartData(res.data)
+                    alert("Product added to Cart")
+                    MycartData()
                 })
                 .catch((err) => {
                     console.log("Not working", err)

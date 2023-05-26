@@ -65,6 +65,7 @@ function SingleProduct(props) {
             cartData.forEach((product) => {
                 if (product.id === el.id) {
                     alert("Already in Cart")
+                    navigate("/cart")
                 }
                 else {
                     axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
@@ -73,6 +74,7 @@ function SingleProduct(props) {
                     })
                         .then((res) => {
                             setCartData(res.data)
+                            navigate("/cart")
                         })
                         .catch((err) => {
                             console.log("Not working", err)
