@@ -35,5 +35,3 @@ The application allows users to:
 3.Add products to their cart
 4.View their cart and checkout
 
-## Netlify:
-https://skinnetic.netlify.app/

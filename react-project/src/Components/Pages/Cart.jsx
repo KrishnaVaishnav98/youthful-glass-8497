@@ -41,7 +41,7 @@ function Cart() {
 
     function handleQuantity(val, id, quantity, el) {
         if (val === "+") {
-            axios.put(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`, {
+            axios.put(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`, {
                 ...el,
                 quantity: quantity + 1,
             })
@@ -53,7 +53,7 @@ function Cart() {
                     console.log(err);
                 });
         } else if (val === "-" && quantity > 1) {
-            axios.put(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`, {
+            axios.put(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`, {
                 ...el,
                 quantity: quantity - 1,
             })
@@ -68,7 +68,7 @@ function Cart() {
     }
 
     function deleteCartItem(id) {
-        axios.delete(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`)
+        axios.delete(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${id}`)
             .then((res) => {
                 console.log(res.data);
                 MycartData();
@@ -90,7 +90,7 @@ function Cart() {
         setCartData([])
         navigate("/")
         cartData.map((el) => (
-            axios.delete(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${el.id}`)
+            axios.delete(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart/${el.id}`)
                 .then((res) => {
                     console.log(res.data);
                     MycartData()

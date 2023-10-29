@@ -37,7 +37,7 @@ function Refills() {
     }, [search, order])
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -55,7 +55,7 @@ function Refills() {
                     alert("Already in Cart")
                 }
                 else {
-                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                    axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                         ...el,
                         quantity: 1
                     })
@@ -70,7 +70,7 @@ function Refills() {
 
             });
         } else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                 ...el,
                 quantity: 1
             })
