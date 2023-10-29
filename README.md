@@ -1,5 +1,24 @@
 # youthful-glass-8497
 
+## Getting Started
+(to run the app locally)
+First, install npm:
+
+```bash
+npm install
+```
+then, run the development server:
+
+```bash
+npm run dev
+```
+
+then start the server:
+
+```bash
+npm run server
+```
+
 ## E-Commerce Website : Skinnetic
 This is a basic level e-commerce website built using React where you can buy skincare products.
 
