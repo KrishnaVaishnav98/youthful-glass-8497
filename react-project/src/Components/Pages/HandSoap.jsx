@@ -14,7 +14,7 @@ function HandSoap() {
     const [cartData, setCartData] = useState([])
 
     function Products() {
-        let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=HandSoap&q=${search}&_sort=price&_order=${order}`
+        let url = `${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=HandSoap&q=${search}&_sort=price&_order=${order}`
 
         axios.get(url)
             .then((res) => {
@@ -35,7 +35,7 @@ function HandSoap() {
     }, [search, order])
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -53,7 +53,7 @@ function HandSoap() {
                     alert("Already in Cart")
                 }
                 else {
-                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                    axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                         ...el,
                         quantity: 1
                     })
@@ -68,7 +68,7 @@ function HandSoap() {
 
             });
         } else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                 ...el,
                 quantity: 1
             })

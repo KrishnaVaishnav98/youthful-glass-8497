@@ -399,17 +399,6 @@
   ],
   "cart": [
     {
-      "id": 35,
-      "name": "From Alaska To Ibiza",
-      "price": 47.9,
-      "about": "A pack with everything you need in any situation. Whether you're in Alaska or Ibiza.We give you all your body needs with the travel sizes of our Body Wash, Shampoo, Deodorant, Toothpaste and Hand Sanitizer. Its natural formulas are designed to make your skin and hair look shinier, softer and healthier. Take them with our Beauty Bag on your vacations, on a weekend getaway or to use them in your daily routine when you’re not at home.",
-      "category": "Combo",
-      "howToUse": "Shampoo: Apply a small amount onto wet hair and scalp to create a gentle lather. Rinse thoroughly. For external use only. Avoid contact with eyes. Keep out of reach of children.\n Body Wash: Pump gel into hand and apply to wet skin. Massage gently and rinse thoroughly. For external use only. Use only as directed. Avoid contact with eyes. Discontinue use if irritation occurs.\nDeodorant: Apply on clean and dry skin, covering the entire armpit. Leave to dry before putting clothes on. For external use only. Stop use if irritation occurs. Keep out of reach of children.\nToothpaste: Brush thoroughly after each meal, or as directed by a dentist. Do not swallow. Suitable for children over the age of 3 years.",
-      "ingredients": "Aqua (Water), Decyl Glucoside, Cocamidopropyl Betaine, Lauryl Glucoside, Aloe barbadensis Leaf Juice, Glycerin, Parfum (Fragrance), Glyceryl Laurate, Benzyl Alcohol, Citric Acid, Potassium Sorbate, Benzoic Acid, Sodium Chloride, Sodium Benzoate, Inulin, Linalool, Sorbic Acid, Limonene, Citral, Geraniol, Fructose.",
-      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/FromAlaskaIbiza_2_OK.jpg?v=1681314614",
-      "quantity": 3
-    },
-    {
       "id": 1,
       "name": "3 Hand Sanitizers Mystic Foliage",
       "price": 12.7,
@@ -418,17 +407,17 @@
       "howToUse": "1.Spray until your hands are sufficiently covered \n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
       "ingredients": "Hand Sanitizer Forest Grace: Green energy and the effervescence of fruit.\n  Hand Sanitizer Wild Orchid: Wild orchids around the warmth of vanilla flower and Indian Sandalwood.\n  Hand Sanitizer Tales of Lotus:Delicate water petals are covered with white figs and dry fruit notes.",
       "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/Hand_Sanitizer_BE_pocket_Soothing_Lavender.jpg?v=1681718048",
-      "quantity": 4
+      "quantity": 1
     },
     {
-      "id": 2,
-      "name": "Hydrating Hand Sanitizer - Blossom Elixir 3 Pack",
-      "price": 12.7,
-      "about": "The best scents inspired by the healing powers of floral and plant-derived extracts combined in one cute HAAN Pocket package: Bright Rose, Purifying Verbena and Healing Chrysants. The ideal mix of aromas to make you feel relaxed!",
-      "category": "HandSanitizer",
-      "howToUse": "1.Spray until your hands are sufficiently covered\n 2.Shuffle fingertips in palm.\n 3.Rub your hands inside and out.\n 4.Rub between your fingers.\n 5.Enjoy clean and soft hands.",
-      "ingredients": "Ethyl Alcohol Denat:Natural ingredient that kills 99.99% of bacteria and viruses, protecting the skin from all kinds of microorganisms that cause infesctions.\n Aloe Vera:Plant-based ingredient known for its moisturizing, antioxidant and antibacterial benefits. Aloe soothes and softens the skin, improving its healthy look without leaving a sticky feeling.\n Aqua: You already know water but... did you know it is present in most personal care products? Water hydrates and improves the effect of other active ingredients in any formula.\n Glucose Derivative:Highly hydrating natural that works as a humectant helping the skin to cling onto water. A plus? it has a smooth, silky feel to make its applying experience more luxurious!",
-      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/081_1.jpg?v=1651510067",
+      "id": 37,
+      "name": "Full Skin Care Routine - for Dry Skin",
+      "price": 43.9,
+      "about": "Make up your full daily skincare routine ",
+      "category": "Combo",
+      "howToUse": "1.Face Cleanser: Apply morning and evening, massaging onto wet skin in a gentle, circular motion. Rinse thoroughly with water.\n  2.Face Cream: Apply and massage morning and/or night on cleansed skin.\n 3.Face Serum :Apply morning and evening after cleansing and drying the skin, massaging gently until completely absorbed.",
+      "ingredients": "Aqua, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Sodium Benzoate, Potassium Sorbate, Disodium EDTA, Parfum(Fragrance), Inulin, Tetrasodium EDTA, Fructose, Caprylyl Glycol, Acetyl Tetrapeptide-2.",
+      "avatar": "https://cdn.shopify.com/s/files/1/0511/9066/1293/products/03_11.jpg?v=1675873024",
       "quantity": 1
     }
   ]

@@ -27,7 +27,7 @@ function Cart() {
     const navigate = useNavigate()
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -197,7 +197,7 @@ function Cart() {
                                             objectFit='cover'
                                             maxW={{ base: '100%', sm: '200px' }}
                                             src={el.avatar}
-                                            alt={el.name} />
+                                            alt={"https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/b1vocvpc_202307111714372172.jpg"} />
 
                                         <Stack w="550px">
                                             <CardBody>

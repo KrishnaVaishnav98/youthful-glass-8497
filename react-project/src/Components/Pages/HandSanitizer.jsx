@@ -7,6 +7,7 @@ import { Search2Icon } from '@chakra-ui/icons'
 import { Input, InputGroup, InputLeftElement, Select } from '@chakra-ui/react'
 import Footer from '../Footer/Footer';
 
+
 function HandSanitizer() {
     const [data, setData] = useState([])
     const [search, setSearch] = useState("")
@@ -14,7 +15,7 @@ function HandSanitizer() {
     const [cartData, setCartData] = useState([])
 
     function Products() {
-        let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=HandSanitizer&q=${search}&_sort=price&_order=${order}`
+        let url = `${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=HandSanitizer&q=${search}&_sort=price&_order=${order}`
 
         axios.get(url)
             .then((res) => {
@@ -36,7 +37,7 @@ function HandSanitizer() {
     }, [search, order])
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -54,7 +55,7 @@ function HandSanitizer() {
                     alert("Already in Cart")
                 }
                 else {
-                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                    axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                         ...el,
                         quantity: 1
                     })
@@ -69,7 +70,7 @@ function HandSanitizer() {
 
             });
         } else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                 ...el,
                 quantity: 1
             })

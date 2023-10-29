@@ -14,7 +14,7 @@ function Refills() {
     const [cartData, setCartData] = useState([])
 
     function Products() {
-        let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=Refills&q=${search}&_sort=price&_order=${order}`
+        let url = `${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=Refills&q=${search}&_sort=price&_order=${order}`
 
         axios.get(url)
             .then((res) => {
@@ -114,7 +114,7 @@ function Refills() {
                                 <Image
 
                                     src={el.avatar}
-                                    alt={el.name}
+                                    alt={"https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/b1vocvpc_202307111714372172.jpg"}
                                     borderRadius='lg'
                                 />
                                 <Stack mt='6' spacing='3'>

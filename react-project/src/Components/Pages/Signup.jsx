@@ -34,7 +34,7 @@ function SignUp() {
             alert("Your Password must match confirm password")
         }
         else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/users`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/users`, {
                 name: name,
                 email: email,
                 password: password

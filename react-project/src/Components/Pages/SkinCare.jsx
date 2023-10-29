@@ -14,7 +14,7 @@ function SkinCare() {
     const [cartData, setCartData] = useState([])
 
     function Products() {
-        let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=SkinCare&q=${search}&_sort=price&_order=${order}`
+        let url = `${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=SkinCare&q=${search}&_sort=price&_order=${order}`
 
         axios.get(url)
             .then((res) => {
@@ -36,7 +36,7 @@ function SkinCare() {
     }, [search, order])
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -54,7 +54,7 @@ function SkinCare() {
                     alert("Already in Cart")
                 }
                 else {
-                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                    axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                         ...el,
                         quantity: 1
                     })
@@ -69,7 +69,7 @@ function SkinCare() {
 
             });
         } else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                 ...el,
                 quantity: 1
             })
@@ -113,7 +113,7 @@ function SkinCare() {
                                 <Image
 
                                     src={el.avatar}
-                                    alt={el.name}
+                                    alt={"https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/b1vocvpc_202307111714372172.jpg"}
                                     borderRadius='lg'
                                 />
                                 <Stack mt='6' spacing='3'>

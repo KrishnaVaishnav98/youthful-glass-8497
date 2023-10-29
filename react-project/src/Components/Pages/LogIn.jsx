@@ -24,8 +24,8 @@ function LogIn() {
 
     const navigate = useNavigate()
 
-    const UserData = () => {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/users`)
+    function UserData() {
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/users`)
             .then((res) => {
                 setUserData(res.data)
             })

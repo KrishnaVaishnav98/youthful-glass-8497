@@ -15,7 +15,7 @@ function Combo() {
     const [cartData, setCartData] = useState([])
 
     function Products() {
-        let url = `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=Combo&q=${search}&_sort=price&_order=${order}`
+        let url = `${process.env.REACT_APP_JSON_SERVER_PORT}/products?category=Combo&q=${search}&_sort=price&_order=${order}`
 
         axios.get(url)
             .then((res) => {

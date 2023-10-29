@@ -26,9 +26,8 @@ function SingleProduct(props) {
     const [cartData, setCartData] = useState([])
 
     category = data.category
-    console.log("data.id==========", data.id)
     function Products() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products/${id}`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/products/${id}`)
             .then((res) => {
                 setData(res.data)
             })
@@ -49,7 +48,7 @@ function SingleProduct(props) {
     }
 
     function MycartData() {
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
+        axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`)
             .then((res) => {
                 setCartData(res.data)
             })
@@ -68,7 +67,7 @@ function SingleProduct(props) {
                     navigate("/cart")
                 }
                 else {
-                    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+                    axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                         ...el,
                         quantity: 1
                     })
@@ -83,7 +82,7 @@ function SingleProduct(props) {
 
             });
         } else {
-            axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
+            axios.post(`${process.env.REACT_APP_JSON_SERVER_PORT}/cart`, {
                 ...el,
                 quantity: 1
             })
