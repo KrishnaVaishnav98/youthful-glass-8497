@@ -34,8 +34,9 @@ function LogIn() {
             })
     }
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault()
+        await UserData()
         let foundUser = false;
         userData.forEach((user) => {
             if (user.email === email && user.password === password) {
@@ -50,9 +51,9 @@ function LogIn() {
         }
     }
 
-    useEffect(() => {
-        UserData()
-    }, [])
+    // useEffect(() => {
+    //     UserData()
+    // }, [])
 
 
 

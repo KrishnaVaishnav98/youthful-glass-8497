@@ -41,19 +41,15 @@ function SignUp() {
             })
                 .then((res) => {
                     console.log(res.data)
+                    localStorage.setItem("current", JSON.stringify({ email: email, password: password }))
+                    navigate("/login")
                 })
                 .catch((err) => {
                     console.log(err)
                 })
-            navigate("/login")
-
         }
 
     }
-
-
-
-
 
 
     return (<>

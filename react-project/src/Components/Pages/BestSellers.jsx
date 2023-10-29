@@ -1,4 +1,4 @@
-import { Image, Flex, Box, Text, Heading, Button, ButtonGroup, Grid, GridItem, background } from '@chakra-ui/react'
+import { Image, Flex, Box, Text, Heading, Button, ButtonGroup, Grid, Spinner } from '@chakra-ui/react'
 import { Card, CardBody, Stack, CardFooter, Center } from '@chakra-ui/react'
 import Footer from '../Footer/Footer';
 import axios from "axios"
@@ -12,17 +12,20 @@ function BestSellers() {
 
     const [data, setData] = useState([])
     const [cartData, setCartData] = useState([])
+    const [loading, setLoading] = useState(false);
     const navigate = useNavigate()
 
 
     function Products() {
+        setLoading(true)
         axios.get(`${process.env.REACT_APP_JSON_SERVER_PORT}/products`)
             .then((res) => {
-                console.log(res.data)
+                setLoading(false)
                 setData(res.data)
             })
             .catch((err) => {
                 console.log(err)
+                setLoading(false)
             })
 
     }
@@ -81,7 +84,18 @@ function BestSellers() {
         MycartData()
     }, [])
 
+    if (loading) {
+        return (
+            <Spinner
+                thickness='4px'
+                speed='0.65s'
+                emptyColor='gray.200'
+                color='blue.500'
+                size='xl'
+            />
+        )
 
+    }
 
     return (
         <>
